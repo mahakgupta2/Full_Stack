@@ -1,0 +1,56 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+
+
+.Application{
+    display: flex;
+    border-radius: 20vh;
+    border-color: blue;
+
+}
+.Information{
+   border-style: double;
+   border-color: blue;
+}
+
+.Details{
+    color: blue;
+}
+
+.Application{
+    display: flex;
+    border-radius: 20vh;
+    border-color: blue;
+}
+.Information{
+   border-style: double;
+   border-color: blue;
+}
+
+.Details{
+    color: blue;
+}
+
+.Application{
+    display: flex;
+    border-radius: 20vh;
+    border-color: blue;
+}
+.Information{
+   border-style: double;
+   border-color: blue;
+}
+
+.Details{
+    color: blue;
+}
+.submit{
+    color:white;
+    background-color: blue;
+}

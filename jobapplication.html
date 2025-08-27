@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="jobapplication.css">
 </head>
 <body>
-    <form>
+    <form class="Data">
         <h1>Job Application</h1>
             <div class="Application">
-                <fieldset>
-                    <legend>Personal Information</legend>
+                <fieldset class="Information" >
+                    <legend class="Details">Personal Information</legend>
                     <label for="First Name"> Full Name:</label><br><br>
                     <input type="text" id="First Name" name="First Name" required><br><br>
                     <label for="Last Name">Last Name:</label><br><br>
@@ -22,9 +22,9 @@
                     <input type="number" id="Phone No" name="Phone No"required><br><br>
                 </fieldset>
             </div>
-            <div>
-                 <fieldset>
-                    <legend>Job Details</legend>
+            <div class="Application">
+                 <fieldset class="Information">
+                    <legend class="Details">Job Details</legend>
                     <label for="Postion Applied For">Postion Applied For:</label><br><br>
                     <select id="select a position" name="select a Postion">
                         <option value="select">Select a position</option>
@@ -40,9 +40,9 @@
                     <textarea id="Cover Letter" name="Cover Letter" placeholder="Write here..." required></textarea><br><br>
                 </fieldset>
             </div>
-             <div>
-                <fieldset>
-                    <legend >Availability</legend>
+             <div class="Application">
+                <fieldset class="Information">
+                    <legend class="Details" >Availability</legend>
                     <label for="Availability Start Date">Availability Start Date:</label><br><br>
                     <input type="date" id="Availability Start Date" name="Availability Start Date" required><br><br>
                     <label for="Willing to Relocate">Willing to Relocate:</label><br><br>

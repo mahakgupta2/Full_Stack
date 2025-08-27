@@ -1,42 +1,136 @@
-.portfolio-container{
-    min-height:100vh;
-    width: 100%;
-    display: flex;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navlist{
-    display: flex;
-    gap:3.5rem;
-    height:15vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
+body {
+  background: linear-gradient(135deg, black, pink,rgb(138, 185, 240),black);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
 }
-.navlist li{
-    list-style: none;
-}
-.navlist li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    color: white;
 
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
-.left-container,.right-container{
-    height:100vh;
-}
-.left-container{
-    background: #262626;
-    width: 70%;
-}
-.right-container{
-    background:#B1DDF1;
-    width: 30%;
-}
-.fa-brands{
-    color: #bbb;
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to right, pink,black,rgb(243, 243, 1),rgb(142, 142, 219));
+  border-image-slice: 1;
 }
-.content{
-    color: white;
+
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left:30px;
+  text-decoration: none;
+  color: white;
+  font-weight:500;
+  font-size:30px;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ffcc00;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  margin:100px;
+  border-radius: 50%;
+  border: 5px solid rgb(250, 205, 205);
+  box-shadow: 0 0 20px black, 0 0 40px white;
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.intro {
+  max-width: 500px;
+}
+
+.intro h1 {
+  font-size:40px;
+  margin-bottom: 15px;
+}
+
+.intro h1 span {
+  color: #ffcc00;
+}
+
+.intro p {
+  font-size:20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* Resume Button */
+.btn {
+  display: inline-block;
+  background: #ffcc00;
+  color: #000;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffa500;
+  color: white;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  margin-right: 15px;
+  color: white;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
 }

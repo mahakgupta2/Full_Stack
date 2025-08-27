@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to right, pink,black,rgb(243, 243, 1),rgb(142, 142, 219));
+  border-image-slice: 1;
+}
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left:30px;
+  text-decoration: none;
+  color: white;
+  font-weight:500;
+  font-size:30px;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ffcc00;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+.intro{
+  max-width:1200px;
+  color: rgb(70, 100, 70);
+}
+.intro h1{
+  font-size:40px;
+  margin-bottom: 15px;
+}
+.intro p {
+  font-size:20px;
+  margin-bottom:20px;
+  line-height:2.0;
+  color: antiquewhite;
+}
+body {
+  background: linear-gradient(135deg, black, pink,rgb(138, 185, 240),black);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.project-title {
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+}
+.project-desc {
+  font-size: 14px;
+  color: white;
+}
+.projects-container {
+  background-color: black;
+  margin: 30px;
+}
+.icon{
+  margin:10px;
+  font-size:20px;
+  color: white;
+}
+.card{
+  background-color: black;
+  font-size:20px;
+  margin-left: 30px;
+  border-radius: 10px;         
+  padding:15px;                
+  max-width:300px; 
+  
+}
+.card-title{
+  font-size: 20px;
+  color: yellow;
+}
+.card-text{
+  font-size: 20px;
+  color:white;
+}
+.Details{
+  display: flex;               
+  gap: 100px;
+  margin: 20px;   
+  
+}

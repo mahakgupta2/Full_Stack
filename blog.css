@@ -1,0 +1,28 @@
+.img{
+    width: 200px;
+    height: 200px;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(50, 50, 150);
+    text-transform: uppercase;
+}
+h3{
+    text-align: start;
+    color: black;
+}
+#posts article p{
+
+    color: #444;
+    line-height:1.6;
+    font-size: 16px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, tr {
+  border: 1px solid black;
+  padding: 8px;
+  background-color:blue;
+}
