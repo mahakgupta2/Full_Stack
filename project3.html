@@ -4,8 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project 3</title>
+    <link rel="stylesheet" href="project3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Project</a>
+        </nav>
+    </header>
+    <div class="project3">
+        <div class="title-bar">
+            <h1>Amazon Clone</h1>
+            <button class="icon">
+                <a href=""><i class="fa-brands fa-github">Github</i>
+                </a>
+            </button>
+        </div>
+    <img src="project2.jpg" class="img">
+    <h1>Objectives</h1><br>
+    <h2>1. Cross-Platform Music Experience</h2>
+    <p> - Build a modern, responsive music player for Android, iOS, Web, Windows.<br>
+    - Ensure smooth playback with minimal lag and elegant transitions.</p>
+    <h2>2. User-Friendly Interface</h2>
+    <p> - Intuitive navigation via BottomNavigationBar (Home, Search, Favorites, Music, Profile).<br>
+    - Attractive UI with glowing buttons, dark theme, and soft animations.</p>
+    <h2>3. Role-Based Access</h2>
+    <p> - Secure Firebase Authentication for login/signup<br>.
+    - Role-based redirection: Admin → /adminDashboard | User → /userHome</p>
+    <h2>4. Streaming & Playback</h2>
+    <p> - Stream songs directly from Cloudinary URLs.<br>
+    - Provide all key audio controls: Play/Pause, Next/Previous, Seekbar.</p>
+    <h2>5. Personalization</h2>
+    <p>- Favorites management for songs.<br>
+    - Playback state persistence with HydratedBloc.</p>
+    <h1>Deliverables</h1><br>
+    <h2>1.Music Playback System</h2>
+    <p> - Core player using audioplayers package.<br>
+- Persistent bottom controls for quick play/pause.</p>
+    <h2>2.Search & Navigation</h2>
+    <p> - Search songs by title/artist with real-time filtering.<br>
+- “See All” option for complete song lists.</p>
+    <h2>3.Favorites Module</h2>
+    <p>- Add/remove songs to Favorites.<br>
+- Dedicated Favorites Tab.</p>
+    <h2>4.Profile & Settings</h2>
+    <p> - Display user email, profile options, and logout button with glowing effect.</p>
+    <h2>5.Admin Functionality</h2>
+    <p>- Separate Admin Dashboard for managing content.</p>
+    <div>
+        <h1>Requirements</h1>
+        <table>
+            <tr>
+                <th>Requirement </th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <th>Framework </th>
+                <th>Flutter SDK (cross-platform).</th>
+            </tr>
+            <tr>
+                <th>Backend</th>
+                <th>Firebase Authentication for login, signup, role-based access.</th>
+            </tr>
+            <tr>
+                <th>Cloud Storage</th>
+                <th>Cloudinary for hosting and streaming audio files.</th>
+            </tr>
+            <tr>
+                <th>Audio Package </th>
+                <th>audioplayers / just_audio for playback functionality</th>
+            </tr>
+            <tr>
+                <th>State Management </th>
+                <th>HydratedBloc for persisting UI and playback state.</th>
+            </tr>
+            <tr>
+                <th>UI/UX</th>
+                <th>Material Design, glowing buttons, circular images,animations</th>
+            </tr>
+        </table>
+    </div>
+    <h1>Advanced Features / Future Scope</h1><br>
+    <h2>1.AI-Powered Recommendations</h2>
+    <p>- Suggest music based on search history & listening behavior.</p>
+    <h2>2.Offline Mode (Future)</h2>
+    <p>- Enable download & offline playback for selected songs.</p>
+    <h2>3.Cross-Platform Optimization</h2>
+    <p> - Ensure responsive UI across all platforms.</p>
+    <h2>4.Enhanced Engagement</h2>
+    <p>-Smooth transitions, shadows, and interactive feedback for better UX.</p>
+    <h2>5.Admin Panel Expansion</h2>
+    <p>-Web dashboard for managing songs & user roles.</p>
+    </div>
+
 </body>
 </html>

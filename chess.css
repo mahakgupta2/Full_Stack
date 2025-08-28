@@ -1,0 +1,463 @@
+.container{
+    margin: 50px;
+    padding:100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    border-s;
+}
+.row1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row7{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row8{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    color:black;
+    background-color:white;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.box2{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.box3{
+    height: 20px;
+    color:black;
+    width: 20px;
+    border-radius:10px;
+    background-color:white;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+
+}
+.box4{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.box5{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+
+}
+.box6{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color: white;
+    background-color:black;
+    border: 2px solid black;
+}
+.box7{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+
+}
+.box8{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+
+}
+.box9{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.box10{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box11{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.box12{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box13{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box14{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box15{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box16{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box25{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.box26{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box27{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.box28{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box29{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box30{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box31{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box32{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box57{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.box58{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box59{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.box60{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box61{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box62{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box63{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box64{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box41{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+.box42{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box43{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.box44{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box45{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box46{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border: 2px solid black;
+}
+.box47{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.box48{
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    margin: 20px;
+    padding: 15px;
+    color:black;
+    background-color:white;
+    border:2px solid black;
+}

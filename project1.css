@@ -53,7 +53,7 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
-.project2{
+.project1{
     background-color: black;
     margin: 30px;
     padding: 20px;
@@ -62,12 +62,12 @@ nav a:hover::after {
     justify-content: center;
 
 }
-.project2 h1{
+.project1 h1{
    color: white;
     margin: 30px;
 }
 
-.project2 img{
+.project1 img{
   width:400px;
   height: 550px;
   margin:20px auto;
@@ -75,13 +75,13 @@ nav a:hover::after {
   border-radius: 10px;
 
 }
-.project2 p {
+.project1 p {
   font-size:20px;
   margin-bottom:10px;
   line-height:2.0;
   color:white;
 }
-.project2 h2{
+.project1 h2{
     color: white;
     margin:15px;
 

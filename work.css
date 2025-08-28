@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, black, pink,rgb(138, 185, 240),black);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to right, pink,black,rgb(243, 243, 1),rgb(142, 142, 219));
+  border-image-slice: 1;
+}
+
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left:30px;
+  text-decoration: none;
+  color: white;
+  font-weight:500;
+  font-size:30px;
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ffcc00;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+.intro{
+  max-width:1200px;
+  color: rgb(70, 100, 70);
+}
+.intro h1{
+  font-size:40px;
+  margin-bottom: 15px;
+}
+.intro p {
+  font-size:20px;
+  margin-bottom:20px;
+  line-height:2.0;
+  color:wheat;
+}
+.certificate1{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin:20px;
+}
+.certificate2{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin: 20px;
+}
+.certificate3{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin: 20px;
+}
+.certificate4{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin: 20px;
+}
+.certificate5{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin: 20px;
+}
+.certificate6{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin: 20px;
+}.certificate7{
+    width:400px;
+    height:300px;
+    border-radius:15px;
+    margin: 20px;
+}
